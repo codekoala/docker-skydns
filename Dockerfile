@@ -1,4 +1,4 @@
-FROM codekoala/arch-s6
+FROM codekoala/arch
 MAINTAINER Josh VanderLinden <codekoala@gmail.com>
 
 RUN pacman -Syu --noconfirm --needed skydns-git && \
